@@ -1,2 +1,2 @@
-import { main } from '../main/app'
-new main().run()
+import '../main/app'
+setInterval(() => { }, 100000000)

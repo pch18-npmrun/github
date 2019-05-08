@@ -1,7 +1,3 @@
 #!/usr/bin/env node
-export declare class main {
-    PackageJson: any;
-    constructor();
-    run(): void;
-}
+export {};
 //# sourceMappingURL=app.d.ts.map

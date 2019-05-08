@@ -1,5 +1,5 @@
 {
-  "name": "@pch18-run/github",
+  "name": "@pch18run/github",
   "version": "1.0.0",
   "description": "pch18",
   "keywords": [],
@@ -7,16 +7,21 @@
   "scripts": {
     "test": "ts-node test/app.ts",
     "start": "node build/app.js",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "postpublish": "read -p '请输入git提交信息: ' K && git add . && git commit -m \"${K}\" && git push origin master"
   },
   "author": "pch18 <pch18@qq.com> (https://pch18.cn/)",
   "license": "ISC",
   "dependencies": {
+    "@pch18/request": "^1.0.17",
+    "@pch18/shell-tools": "^1.0.6",
     "@types/node": "latest",
+    "colors": "^1.3.3",
     "ts-node": "latest",
     "typescript": "latest"
   },
   "directories": {
     "test": "test"
-  }
+  },
+  "devDependencies": {}
 }
