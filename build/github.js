@@ -47,7 +47,7 @@ class github {
                         yield shell_tools_1.default.processSpawn([
                             'git remote remove origin',
                             'git remote add origin ' + gitAddr
-                        ], '覆盖设置remote地址');
+                        ], '覆盖remote地址');
                     }
                 }
             }
