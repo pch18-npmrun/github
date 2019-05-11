@@ -4,7 +4,7 @@
   "description": "pch18",
   "keywords": [],
   "bin": {
-    "github":"build/app.js"
+    "github": "build/app.js"
   },
   "main": "build/app.js",
   "scripts": {
@@ -26,5 +26,13 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pch18-npmrun/github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pch18-npmrun/github/issues"
+  },
+  "homepage": "https://github.com/pch18-npmrun/github#readme"
 }
