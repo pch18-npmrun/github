@@ -1,8 +1,11 @@
 {
   "name": "@pch18run/github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pch18",
   "keywords": [],
+  "bin": {
+    "github":"build/app.js"
+  },
   "main": "build/app.js",
   "scripts": {
     "test": "ts-node test/app.ts",
